@@ -4,15 +4,23 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + Lit + TS</title>
+    <title>Solid Design System: Demo</title>
     <link rel="stylesheet" href="./src/index.scss" />
     <script type="module" src="/src/my-element.ts"></script>
+    <script type="module">
+      import '@solid-design-system/components/unversioned/link/link';
+    </script>
   </head>
   <body
-    class="flex flex-col gap-6 justify-center items-center text-black">
-    <h1 class="text-xl font-bold">SDS Tester</h1>
+    class="flex flex-col gap-12 justify-center items-center text-black">
+    <h1 class="text-xl font-bold">Solid Design System: Demo</h1>
     <my-element>
-      <h1>Vite + Lit</h1>
     </my-element>
+    <div class="space-x-4">
+      <sd-link target="_blank"
+        href="https://github.com/solid-design-system/solid-design-system-demo">GitHub
+        Repo</sd-link><span>|</span>
+      <sd-link target="_blank"
+        href="https://solid-design-system.fe.union-investment.de/x.x.x/storybook/">Storybook</sd-link></div>
   </body>
 </html>
