@@ -25,7 +25,7 @@ export class MyElement extends LitElement {
   render() {
     return html`
         <sd-button href="#" variant="primary" @click=${this._onClick} >Unversioned: <span class="numbers">${this.count}</span></sd-button>  
-        <sd-1-0-0-button variant="secondary" @click=${this._onClick} >Versioned: <span class="numbers">${this.count}</span></sd-1-0-0-button>
+        <sd-1-0-1-button variant="cta" @click=${this._onClick} >Versioned: <span class="numbers">${this.count}</span></sd-1-0-1-button>
 `;
   }
 
