@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@solid-design-system/components':
-    specifier: 1.0.0
-    version: 1.0.0
+    specifier: 1.0.1
+    version: 1.0.1
   '@solid-design-system/tokens':
     specifier: ^1.1.0
     version: 1.1.0
@@ -313,8 +313,8 @@ packages:
     resolution: {integrity: sha512-NkM/hj3Js6yXCU9WxhsyxRUdyqUUUl/BSvIluUMptQteUWGOJaoyP1iMbOMqO544DYMzBfnoCw66ZHkGuTdKgA==}
     dev: false
 
-  /@solid-design-system/components@1.0.0:
-    resolution: {integrity: sha512-9kFtG9cwjfdMFdu3aKwgdDtO9lY/i65Gjc3QLsZhqGPWg5YDYOubuXVLctVspWgi5ivZODn2vxCYIrlpqa8XgQ==}
+  /@solid-design-system/components@1.0.1:
+    resolution: {integrity: sha512-kCobgz7zy1I+/VbHtPapC5+nzRc+kLDmcOguOQ009t9nbawQucO1S/h+Cqa+nrx3LXhL7cTwFIcC50Tg84vOGA==}
     dependencies:
       '@shoelace-style/animations': 1.1.0
       '@shoelace-style/localize': 3.1.1

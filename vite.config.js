@@ -7,5 +7,10 @@ export default {
         additionalData: `@import "@solid-design-system/tokens/scss";`
       }
     }
+  },
+  server: {
+    fs: {
+      strict: false,
+    }
   }
 }

@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@solid-design-system/components": "1.0.0",
+    "@solid-design-system/components": "1.0.1",
     "@solid-design-system/tokens": "^1.1.0",
     "lit": "^2.7.2"
   },

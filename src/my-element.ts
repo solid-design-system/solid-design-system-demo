@@ -3,8 +3,6 @@ import { customElement, property } from 'lit/decorators.js';
 import '@solid-design-system/components/versioned/button/button';
 import '@solid-design-system/components/unversioned/button/button';
 
-
-
 /**
  * An example element.
  *
@@ -28,7 +26,7 @@ export class MyElement extends LitElement {
     return html`
         <sd-button href="#" variant="primary" @click=${this._onClick} >Unversioned: <span class="numbers">${this.count}</span></sd-button>  
         <sd-1-0-0-button variant="secondary" @click=${this._onClick} >Versioned: <span class="numbers">${this.count}</span></sd-1-0-0-button>
-    `;
+`;
   }
 
   private _onClick() {
