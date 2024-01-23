@@ -2,7 +2,9 @@ import { autocomplete, getAlgoliaResults } from '@algolia/autocomplete-js';
 import algoliasearch from 'algoliasearch';
 import '@solid-design-system/components/unversioned';
 
-import './autocomplete-theme.css';
+import '@algolia/autocomplete-theme-classic';
+
+import './autocomplete-theme.css'
 
 const searchClient = algoliasearch(
     'latency',
